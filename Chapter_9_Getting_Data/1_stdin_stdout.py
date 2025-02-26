@@ -13,14 +13,14 @@ for line in sys.stdin:
 
 
 # Powershell run using this format:
-# Write-Output {sys.stdin} | python {pyfile} {regex/sys.argv[1]}
+# Write-Output {sys.stdin} | python {pyfile} {regex / sys.argv[1]}
 
 # Example:
-# Write-Output "hello`nworld`nhello world" | python stdin_stdout.py "hello"
+# Write-Output "hello`nworld`nhello world" | python 1_stdin_stdout.py "hello"
 
 # Output:
 # hello
 # hello world
 
 # Also can use echo:
-# echo "hello`nworld`nhello world" | python stdin_stdout.py "hello"
+# echo "hello`nworld`nhello world" | python 1_stdin_stdout.py "hello"
